@@ -310,7 +310,7 @@ function App() {
           </Grid>
         </Grid>
         <Typography variant="h6" sx={{ fontFamily: 'Prompt, sans-serif', fontStyle: "normal", fontWeight: 250, color: "white", mb: 1 }}>
-          This is a demo of our seismic waveform detection algorithm. Upload a CSV file and choose the step you want to observe !
+          This is a demo of our seismic waveform detection algorithm. Load data and choose the step you want to observe !
         </Typography>
 
         {/* Steps */}
