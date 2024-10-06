@@ -5,7 +5,7 @@
 In the project directory, you can run:
 
 ```sh
-# under nasa-app/
+pnpm install
 pnpm start
 ```
 
