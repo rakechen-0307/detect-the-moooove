@@ -112,6 +112,7 @@ function App() {
         -0.034768745, -0.058782592, 0.038977124, 0.055068256, 0.002031613,
         0.026547969, 0.047658812, -4.72E-03, -0.021013882, 0.005414803, -0.015468212);
       setDefaultEvent("lunar 1");
+      setDataUrl("https://dl.dropboxusercontent.com/scl/fi/x8aosw2xe93uvuc7098in/lunar1.json?rlkey=ucyfp4iilinf7evzfkfdpq22z&st=yx84flln&dl=0")
       setProcessedData({
         data: [],
         filteredData: [],
@@ -139,6 +140,7 @@ function App() {
         -0.124987344, -0.049134331, 0.005371116, -0.012730875, -0.059643647, -0.069394178,
         -0.034209679, -0.001507097, -0.006810152, -0.032765272, -0.039009518, -0.015753723);
       setDefaultEvent("mars 1");
+      setDataUrl("https://dl.dropboxusercontent.com/scl/fi/5v263ker3dto5n39lcfs5/mars1.json?rlkey=p4lk834b4agyc6ikhudnnzdmb&st=hmkormij&dl=0");
       setProcessedData({
         data: [],
         filteredData: [],
@@ -297,7 +299,7 @@ function App() {
           <Grid item xs={12} md={5}>
             <Stack direction="row" spacing={2} alignItems="center" justifyContent="flex-end">
               <Typography variant="h4" sx={{ fontFamily: 'Prompt, sans-serif', fontStyle: "italic", fontWeight: 300, color: "white" }}>
-                by Reaching Stars
+                by Reaching STAR
               </Typography>
               <Stack direction="row" spacing={1}>
                 <IconButton aria-label="delete" sx={{ color: "white" }} component="a" href="https://github.com/rakechen-0307/NASA-App-Challenge?fbclid=IwY2xjawFvc2JleHRuA2FlbQIxMAABHQQnToef05i99XLpRZ4nb9kwILYoNzaflfKjx1CbcBVH68vsVSnH1WHpoA_aem_ELvaLK6IJoU0ExaJGrmjng">
